@@ -29,3 +29,6 @@ in Electron-Build dir, add bat like this ,will execute vscode !!!
 https://github.com/Microsoft/vscode/blob/db941b760ed4c37b43e1761887636a83b6841189/src/vs/languages/css/common/services/selectorPrinting.ts 
 
 the code is support type infer !
+
+
+-- gulp vscode-win32-setup          do not know if it is work!
