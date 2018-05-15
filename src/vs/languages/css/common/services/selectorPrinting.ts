@@ -32,7 +32,7 @@ export class Element implements IElement {
 	}
 
 	public findRoot() : Element {
-		var curr = this;
+		var curr : Element = this;
 		while (curr.parent && !(curr.parent instanceof RootElement)) {
 			curr = curr.parent;
 		}
