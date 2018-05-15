@@ -17,6 +17,14 @@ gulp watch
 
 ./scripts/code.bat   // will generate '..\Electron-Build\Code.exe' 
 
+in Electron-Build dir, add bat like this ,will execute vscode !!!
+"Code [OSS Build].exe"  ..\jellyvscode\out\vs\workbench\electron-main\bootstrap.js
+
+
+
+
+
+
 
 https://github.com/Microsoft/vscode/blob/db941b760ed4c37b43e1761887636a83b6841189/src/vs/languages/css/common/services/selectorPrinting.ts 
 
